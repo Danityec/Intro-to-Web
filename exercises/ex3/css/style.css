@@ -40,6 +40,7 @@ footer{
     background-color: #FFFFFF;
 }
 #container{
+    width: 1000px;
     display: flex;
 }
 
@@ -206,11 +207,12 @@ a:hover {
 }
 
 #main3{
-    width: 100%;
+    width: 1000px;
     display: flex;
     flex-flow: row wrap;
     background: #FFFFFF;
     border-right: 0px solid #000000;
+    
 }
 
 #main3 section{
@@ -234,12 +236,13 @@ button{
 
 
 
-@media (max-width:1000px) {
+@media (max-width:1024px) {
   
    #wrapper{
-    width: 100%;
+    width: 577px;
     margin: 0 auto;
    }
+   
 
    #hamburger{
     background-image: url(../images/Menu.png) ;
@@ -249,5 +252,17 @@ button{
     position: absolute;
     margin-left: 20px;
 
+  }
+  #container{
+    width: 577px;
+  }
+  #main3{
+    width: 577px;
+    justify-content: center;
+  }
+  
+  #main3 section{
+      margin:  20px 20px 20px 20px;
+      
   }
 }
