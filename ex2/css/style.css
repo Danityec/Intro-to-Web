@@ -1,0 +1,232 @@
+/*all pages*/
+
+* {
+    margin:0; 
+    padding:0;
+ }
+
+ header, main, footer, nav, aside, section, div {
+    display: block;
+}
+
+header{
+    width: 100%;
+    margin-top: 16px; 
+}
+
+#logo{
+    background: url(../images/Logo.png) no-repeat left center;
+    background-size: contain;
+    width: 48px;
+    height: 48px;
+    margin-left: 13px;
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+#logo span{
+    padding-left: 64px;
+    padding-top: 20px;
+    font-family: Carter One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+#title{
+
+    height: 43px;
+    margin-left: 16px; 
+    margin-top: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#title span{
+    padding-left: 15px;
+    padding-top: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #ffffff
+}
+
+body{
+    background-color: #171932;
+    color: #FFFFFF;
+    font-family: Arial; 
+}
+
+Footer{
+    width: 100%;
+    height: 48px;
+    margin-top: 51px;
+    background: #9B51E0;  
+    padding-left: 14px; 
+}
+
+#foot a{
+    width: 16px;
+    height: 48px ;
+    opacity:0.4;
+    margin-left: 13px;
+    display:inline-block ;
+    padding: -30px;
+}
+
+#twitter{
+    background: url(../images/twitter.png) no-repeat left;
+}
+
+#linkedin{
+    background: url(../images/linkedin.png) no-repeat left;
+}
+#google{
+    background: url(../images/google.png) no-repeat left;
+}
+
+#facebook{
+    background: url(../images/facebook.png) no-repeat left;
+}
+
+/* page 2*/
+
+#photos img{
+    margin-left: 17px;
+    border-radius: 10px;
+}
+
+#photos span img{
+    margin-bottom: 40px;
+}
+nav a{
+    margin-left:13px ;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+main{
+    margin-left:13px ;
+}
+
+h2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 17px; 
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.section1{
+    margin-top: 60px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 41px;
+}
+
+li{
+    background: url(../images/Logo.png)no-repeat left center;
+    padding-left: 60px;
+    line-height: 60px;
+    margin-left: 11px;
+}
+ul{
+    padding-bottom: 10px;
+}
+#section2{
+    margin-top: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+}
+#section3{
+    padding-top: 50px;
+    margin-top: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+}
+#section4{
+    margin-top: 80px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px; 
+}
+#section5{
+    margin-top: 80px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+/*homepage*/
+
+#cover{
+    margin-top:36px;
+}
+main a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+.adventurer{
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px #6c6e7d; 
+    margin-left: 5px;
+}
+
+.adventurerImg{
+    display: block; 
+    margin-top: 18px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;  
+}
+.adventurerInfo{
+    background-color: #9b51e0;
+    text-align: center;
+    height: 60px;
+    width: 265px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-top: 0px;
+    display:inline-block;
+}
+.adventurerInfo img{
+    margin-left: 12px;
+    text-align: center;
+}
