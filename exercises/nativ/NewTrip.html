@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Jquery Library: -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <!-- Google Fonts: -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Local Files: -->
+    <script src="includes/js/scripts.js"></script>
+    <link rel="stylesheet" href="includes/css/style.css">
+    <title>Nativ+ New Trip</title>
+</head>
+
+<body class="NewTrip">
+    <header>
+        <button class="hamburger"></button>
+        <a href="index.html" class="logo"></a>
+        <section class="user">
+            <h4> Good Morning <br> Otal! </h4>
+            <section>
+                <a href="#"> </a>
+            </section>
+        </section>
+    </header>
+    <nav>
+        <a href="TripInfo.html"><img src="includes/images/Planned.png" alt="Planned">Planned</a>
+        <a href="TripInfo.html"><img src="includes/images/History.png" alt="History"> History</a>
+        <a href="#"><img src="includes/images/Favorites.png" alt="Favorites"> Favorites</a>
+        <a href="#"><img src="includes/images/Settings.png" alt="Settings"> Settings</a>
+        <a href="#"><img src="includes/images/Feedback.png" alt="Feedback"> Feedback</a>
+    </nav>
+    <main>
+        <img src="includes/images/map.png" alt="Map" class="map">
+        <form action="DriverList.html">
+            <div class="formTitle">
+                <a href="index.html" class="back"></a>
+                <h2>New Trip</h2>
+                <p> </p>
+            </div>
+            <div class="white">
+                <label class="currLocation">
+                    <img src="includes/images/NavigationLocation.png" alt="Location">
+                    <input type="text" placeholder="Current Location">
+                </label>
+                <label class="destination">
+                    <img src="includes/images/destination.png" alt="Destination">
+                    <input type="text" placeholder="Destination" title="Please enter you desired destination" required>
+                </label>
+                <div class="times">
+                    <label class="date">
+                        <img src="includes/images/Date.png" alt="Date">
+                        <input type="date" value="2020-05-25">
+                    </label>
+                    <label class="time">
+                        <img src="includes/images/Time.png" alt="Time">
+                        <input type="time" value="08:45">
+                    </label>
+                </div>
+                <label class="number">
+                    <img src="includes/images/Passenger.png" alt="Passenger">
+                    <input type="number" placeholder="1">
+                </label>
+                <section class="preferences">
+                    <button type="button" onclick="selected(1)">
+                        <img src="includes/images/Sound.png" alt="Sound">
+                    </button>
+                    <button type="button" onclick="selected(2)">
+                        <img src="includes/images/Pet.png" alt="Pet">
+                    </button>
+                    <button type="button" onclick="selected(3)">
+                        <img src="includes/images/Cigarette.png" alt="Smoking">
+                    </button>
+                </section>
+                <label class="submit">
+                    <input type="submit" value="Let's Go">
+                </label>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
