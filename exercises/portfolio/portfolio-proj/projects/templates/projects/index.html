@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Jquery Library: -->
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <!-- Google Fonts: -->
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond&display=swap" rel="stylesheet">
+        <!-- Local Files: -->
+        <link rel="stylesheet" href="{% static 'projects/css/style.css' %}">
+        <title>Portfolio</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="{% url 'homepage' %}" id="logo"></a>
+            <section class="icons">
+			    <a href="https://il.linkedin.com/" target="_blank" id="linkedin"></a>
+                <a href="https://www.facebook.com/danit.yechezkel" target="_blank" id="facebook"></a>	
+                <a href="https://github.com/Danityec/file/tree/master/exercises" target="_blank" id="Github"></a>
+            </section>	
+        </header>
+        <main>
+            <h1>Danit Noa Yechezkel</h1>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'about' %}">ABOUT</a></li>
+                    <li><a href="{% url 'cv' %}">CV</a></li>
+                    <li><a href="{% url 'project' %}">PROJECTS</a></li>
+                    <li><a href="{% url 'content' %}">CONTENT</a></li>
+                </ul>
+            </nav> 
+        </main>
+    </body>
+</html>
