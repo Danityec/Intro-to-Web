@@ -8,6 +8,7 @@
     <!-- Jquery Library: -->
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <!-- Google Fonts: -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond&display=swap" rel="stylesheet">
     <!-- Local Files: -->
@@ -16,18 +17,26 @@
 </head>
 
 <body>
-    <header>
+    <header class="c-header proj_header">
         <a href="{% url 'homepage' %}" id="logo"></a>
             <section class="icons">
 			    <a href="https://il.linkedin.com/" target="_blank" id="linkedin"></a>
                 <a href="https://www.facebook.com/danit.yechezkel" target="_blank" id="facebook"></a>	
                 <a href="https://github.com/Danityec/file/tree/master/exercises" target="_blank" id="Github"></a>
-                <link rel="stylesheet" href="{% static 'projects/css/style.css' %}">
             </section>
-    </header>
-    <section class="thanks">
-        <h2>THANK YOU FOR YOUR MESSAGE!<br>WE WILL CONTACT YOU BE AS SOON AS POSSIBLE</h2>
-    </section>
+        </header>
+        <section id="projects">
+            <h2>Project</h2>
+            <section class="box">
+                <section class="nativ">
+                    <a href="http://shenkar.html5-book.co.il/2019-2020/web1/dev_207/index.html">Nativ+ Project</a>
+                    <img src="{% static 'projects/images/nativ.png' %}"  alt="nativ">
+                </section> 
+                <section class="Personal_form">
+                    <a href="http://shenkar.html5-book.co.il/2019-2020/web1/dev_29/exercises/ex4/index.html">Personal form</a>
+                    <img src="{% static 'projects/images/form.png' %}" alt="form">
+                </section>
+            </section> 
+        </section>
 </body>
-
-</html>
+</html>       
